@@ -81,6 +81,16 @@ export const projects = [
     image: "sneaker.png",
     live: "https://shop-with-bidex.vercel.app/",
   },
+
+  {
+  id: "authapi",
+  name: "AuthAPI",
+  description:
+    "Production-grade authentication API with JWT refresh token rotation, role-based authorization, and Google OAuth — built with ASP.NET Core 8 and a React frontend.",
+  stack: ["React", "ASP.NET Core 8", "JWT", "Google OAuth"],
+  image: "authapi.png",
+  live: "https://auth-frontend-ashen-zeta.vercel.app/register",
+},
 ];
 
 export const marqueeSkills = [
